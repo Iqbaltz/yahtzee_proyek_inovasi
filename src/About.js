@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 
-class Help extends Component {
+class About extends Component {
 	render() {
 		return (
 			<div>
@@ -14,4 +13,4 @@ class Help extends Component {
 	}
 }
 
-export default Help;
+export default About;

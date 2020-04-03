@@ -12,6 +12,7 @@ class Menu extends Component {
 				<div className="Menu-list">
 					<Link to="/game">Play Game</Link>
 					<Link to="/help">Help</Link>
+					<Link to="/about">About</Link>
 				</div>
 			</div>
 		);
