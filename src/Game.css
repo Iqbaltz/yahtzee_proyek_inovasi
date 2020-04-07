@@ -54,7 +54,7 @@ h3 {
 	transition: 0.5s;
 	background-size: 200% auto;
 	box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
-	background-image: linear-gradient(to right, #132741 0%, #145e9b 51%, #132741 100%);
+	background-image: linear-gradient(to right, #0d1f36 0%, #0c4574 51%, #0d1f36 100%);
 	border-radius: 0.5rem;
 	border: none;
 	width: 50%;
