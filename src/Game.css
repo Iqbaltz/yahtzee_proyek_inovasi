@@ -1,30 +1,35 @@
 .Game {
-	width: 30%;
-	background: white;
-	box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
-	margin: 0 30%;
+	width: 34vw;
+	background-color: #031321;
+	box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	-webkit-animation: Neon 10s ease-in-out infinite;
+	-moz-animation: Neon 10s ease-in-out infinite;
+	animation: Neon 10s ease-in-out infinite;
 }
+
 h2 {
 	font-weight: 100;
 	font-size: 2em;
 	display: inline-block;
-	border-bottom: 2px solid purple;
+	border-bottom: 2px solid #2196f3;
+	text-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
 }
 
 .ScoreBoard {
 	margin: 20px 0;
 }
 .ScoreBoard h3:first-child {
-	border-bottom: 2px solid purple;
+	border-bottom: 2px solid #2196f3;
 }
 
 h3 {
 	font-weight: 100;
 	font-size: 1.8em;
+	text-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
 	display: block;
 	margin: 5px;
 }
@@ -43,12 +48,13 @@ h3 {
 
 .Game-reroll {
 	font-size: 2em;
-	color: white;
+	color: #2196f3;
+	text-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
 	font-weight: 100;
 	transition: 0.5s;
 	background-size: 200% auto;
 	box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
-	background-image: linear-gradient(to right, #91eae4 0%, #7f7fd5 51%, #91eae4 100%);
+	background-image: linear-gradient(to right, #132741 0%, #145e9b 51%, #132741 100%);
 	border-radius: 0.5rem;
 	border: none;
 	width: 50%;
@@ -67,23 +73,18 @@ h3 {
 }
 
 .Game-reroll:disabled {
-	background-color: #ddd;
+	background-color: black;
 	cursor: not-allowed;
 	opacity: 0.5;
 }
 
-.Game-description {
-	font-style: italic;
-	color: white;
-}
-
 .Game-header {
 	width: 100%;
-	background: linear-gradient(-45deg, #673ab7, #9c27b0);
+	background-color: #2196f3;
 	background-size: 400% 400%;
-	-webkit-animation: Gradient 15s ease infinite;
+	/* -webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
-	animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite; */
 }
 
 @keyframes Gradient {
@@ -95,5 +96,17 @@ h3 {
 	}
 	100% {
 		background-position: 0% 50%;
+	}
+}
+
+@media (max-width: 1400px) {
+	.Game {
+		width: 80vw;
+	}
+}
+
+@media (max-width: 1000px) {
+	.Game {
+		width: 90vw;
 	}
 }

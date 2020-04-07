@@ -10,9 +10,27 @@ class Menu extends Component {
 					<h1>MAIN MENU</h1>
 				</div>
 				<div className="Menu-list">
-					<Link to="/game">Play Game</Link>
-					<Link to="/help">Help</Link>
-					<Link to="/about">About</Link>
+					<Link to="/game">
+						<span />
+						<span />
+						<span />
+						<span />
+						Play
+					</Link>
+					<Link to="/help">
+						<span />
+						<span />
+						<span />
+						<span />
+						Help
+					</Link>
+					<Link to="/about">
+						<span />
+						<span />
+						<span />
+						<span />
+						About
+					</Link>
 				</div>
 			</div>
 		);

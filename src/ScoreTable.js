@@ -128,7 +128,7 @@ class ScoreTable extends Component {
 					<h3>
 						<strong>TOTAL:</strong> {this.getTotalScores()}
 					</h3>
-					<h3>Hi-Score: {localStorage.getItem('hiscore')}</h3>
+					{localStorage.getItem('hiscore') ? <h3>Hi-Score: {localStorage.getItem('hiscore')}</h3> : ''}
 				</div>
 			</div>
 		);
