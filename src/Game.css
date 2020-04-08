@@ -108,5 +108,9 @@ h3 {
 @media (max-width: 1000px) {
 	.Game {
 		width: 90vw;
+		margin-top: 10em;
+	}
+	.ScoreBoard {
+		margin: 10px 0;
 	}
 }
