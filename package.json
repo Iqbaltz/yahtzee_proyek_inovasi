@@ -1,39 +1,35 @@
 {
-  "name": "yahtzee",
-  "version": "0.1.0",
-  "homepage": "https://juanirache.github.io/modern-react-bootcamp-exercises/s16-yahtzee",
-  "private": true,
-  "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.12.1",
-    "gh-pages": "^2.0.1",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "react-router-dom": "^5.1.2",
-    "react-scripts": "^3.0.1"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -e s16-yahtzee"
-  },
-  "devDependencies": {
-    "enzyme": "^3.8.0",
-    "enzyme-adapter-react-16": "^1.7.1",
-    "enzyme-to-json": "^3.3.5"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+	"name": "yahtzee",
+	"version": "0.1.0",
+	"homepage": "https://juanirache.github.io/modern-react-bootcamp-exercises/s16-yahtzee",
+	"private": true,
+	"engines": {
+		"npm": "6.13.7",
+		"node": "12.13.1"
+	},
+	"dependencies": {
+		"@fortawesome/fontawesome-free": "^5.12.1",
+		"gh-pages": "^2.0.1",
+		"react": "^16.4.1",
+		"react-dom": "^16.4.1",
+		"react-router-dom": "^5.1.2",
+		"react-scripts": "^3.0.1"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test --env=jsdom",
+		"eject": "react-scripts eject",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build -e s16-yahtzee"
+	},
+	"devDependencies": {
+		"enzyme": "^3.8.0",
+		"enzyme-adapter-react-16": "^1.7.1",
+		"enzyme-to-json": "^3.3.5"
+	},
+	"browserslist": {
+		"production": [ ">0.2%", "not dead", "not op_mini all" ],
+		"development": [ "last 1 chrome version", "last 1 firefox version", "last 1 safari version" ]
+	}
 }
