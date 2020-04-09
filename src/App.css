@@ -3,7 +3,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 100vh;
+	height: 110vh;
 }
 
 .App-title {
@@ -19,6 +19,6 @@
 @media (max-width: 1000px) {
 	.App-title {
 		font-size: 4rem;
-		width: 90%;
+		width: 100%;
 	}
 }
