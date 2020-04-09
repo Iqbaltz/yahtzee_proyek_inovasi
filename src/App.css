@@ -19,5 +19,6 @@
 @media (max-width: 1000px) {
 	.App-title {
 		font-size: 4rem;
+		width: 90%;
 	}
 }

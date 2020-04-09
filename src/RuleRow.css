@@ -48,3 +48,11 @@
 	width: 50%;
 	text-align: right;
 }
+@media (max-width: 1000px) {
+	.RuleRow-name {
+		width: 0;
+	}
+	.RuleRow-score {
+		width: 0;
+	}
+}

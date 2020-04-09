@@ -23,7 +23,7 @@ class Die extends Component {
 	}
 	render() {
 		const { icons, val, locked, disabled, rolling } = this.props;
-		let classes = `Die ${icons[val || 0]} fa-4x `;
+		let classes = `Die ${icons[val || 0]} fa-5x `;
 		if (locked) classes += 'Die-locked';
 		if (rolling) classes += 'Die-rolling';
 		return <i className={classes} onClick={this.handleClick} disabled={disabled} />;

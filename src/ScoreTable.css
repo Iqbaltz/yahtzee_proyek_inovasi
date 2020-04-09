@@ -21,6 +21,10 @@
 
 @media (max-width: 1000px) {
 	.ScoreTable {
-		width: 96%;
+		width: 90%;
+	}
+	.ScoreTable table {
+		width: 90%;
+		min-width: 300px;
 	}
 }
