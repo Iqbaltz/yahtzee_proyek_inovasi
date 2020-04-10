@@ -5,7 +5,7 @@ class Help extends Component {
 	render() {
 		return (
 			<div>
-				<h1>Sorry, Masih Development</h1>
+				<h1 style={{ color: '#fff' }}>Sorry, Belum siap hehe</h1>
 				<div className="Menu-list">
 					<Link to="/">Skuy Balek</Link>
 				</div>
