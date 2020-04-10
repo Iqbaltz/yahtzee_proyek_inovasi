@@ -1,7 +1,6 @@
 {
 	"name": "yahtzee",
 	"version": "0.1.0",
-	"homepage": "https://juanirache.github.io/modern-react-bootcamp-exercises/s16-yahtzee",
 	"private": true,
 	"engines": {
 		"npm": "6.13.7",

@@ -108,3 +108,9 @@ a:hover span:nth-child(4) {
 	bottom: 100%;
 	transition: 1s .75s;
 }
+
+@media (max-width: 800px) {
+	.Menu {
+		width: 90vw;
+	}
+}
