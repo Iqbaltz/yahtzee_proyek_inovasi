@@ -8,6 +8,7 @@ import About from './About';
 
 class App extends Component {
 	componentDidMount() {
+		console.log('di component didmount gan');
 		const elem = document.getElementById('startingLoader');
 		window.onload = () => {
 			if (elem) {
@@ -17,6 +18,7 @@ class App extends Component {
 	}
 
 	render() {
+		console.log('di render gan');
 		return (
 			<div className="App">
 				<Switch className="switch">
@@ -24,7 +26,7 @@ class App extends Component {
 					<Route exact path="/game" render={() => <Game />} />
 					<Route exact path="/help" render={() => <Help />} />
 					<Route exact path="/about" render={() => <About />} />
-					<Route render={() => <Game />} />
+					<Route render={() => <h1 style={{ color: '#fff' }}>oops! 404</h1>} />
 				</Switch>
 			</div>
 		);

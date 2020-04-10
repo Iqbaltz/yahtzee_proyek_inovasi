@@ -21,4 +21,8 @@
 		font-size: 4rem;
 		width: 100%;
 	}
+	.App {
+		display: block;
+		height: 100vh;
+	}
 }

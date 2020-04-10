@@ -112,14 +112,9 @@ h3 {
 	}
 	.Game {
 		width: 96vw;
+		margin: 1em auto;
 	}
 	.ScoreBoard {
 		margin: 10px 0;
-	}
-}
-
-@media (max-width: 600px) {
-	.Game {
-		margin-top: 16em;
 	}
 }
