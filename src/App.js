@@ -7,6 +7,15 @@ import Help from './Help';
 import About from './About';
 
 class App extends Component {
+	componentDidMount() {
+		const elem = document.getElementById('startingLoader');
+		window.onload = () => {
+			if (elem) {
+				elem.remove();
+			}
+		};
+	}
+
 	render() {
 		return (
 			<div className="App">
