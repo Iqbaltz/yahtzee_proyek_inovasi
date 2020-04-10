@@ -1,6 +1,6 @@
 {
-	"short_name": "Yahtzee!",
-	"name": "Game of Yahtzee!",
+	"short_name": "Yahtzee",
+	"name": "Game of Yahtzee",
 	"icons": [
 		{
 			"src": "favicon.ico",
@@ -20,7 +20,7 @@
 	],
 	"start_url": "/",
 	"display": "standalone",
-	"theme_color": "#000000",
-	"background_color": "#ffffff",
+	"theme_color": "#fff",
+	"background_color": "#031321",
 	"orientation": "portrait"
 }
