@@ -24,7 +24,7 @@ class App extends Component {
 					<Route exact path="/game" render={() => <Game />} />
 					<Route exact path="/help" render={() => <Help />} />
 					<Route exact path="/about" render={() => <About />} />
-					<Route render={() => <h1>Oops! 404</h1>} />
+					<Route render={() => <Game />} />
 				</Switch>
 			</div>
 		);
