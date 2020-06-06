@@ -40,12 +40,10 @@
 }
 
 .RuleRow-name {
-	width: 50%;
 	text-align: left;
 }
 
 .RuleRow-score {
-	width: 50%;
 	text-align: right;
 }
 @media (max-width: 1000px) {
