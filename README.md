@@ -1,6 +1,6 @@
 # yahtzee_proyek_inovasi
 
-### [Preview](http://yahtzee-dark.herokuapp.com/)
+### [Preview](https://yahtzee-dark.herokuapp.com/)
 
 ini adalah proyek untuk matakuliah Proyek Inovasi
 
