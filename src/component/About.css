@@ -1,0 +1,47 @@
+.About {
+	position: relative;
+	width: 50%;
+	border: 2px solid #2196f3;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 0 10px #2196f3;
+	-webkit-animation: Neon 5s ease-in-out infinite;
+	-moz-animation: Neon 5s ease-in-out infinite;
+	animation: Neon 5s ease-in-out infinite;
+}
+
+.About-header {
+	background-color: #2196f3;
+	width: 100%;
+	color: #255784;
+}
+
+.About-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2em;
+	color: #2196f3;
+}
+
+.About-card {
+	margin: 0 2em;
+	min-width: 160px;
+}
+
+.img-card {
+	height: 160px;
+}
+
+.title-card {
+	font-size: 1.5em;
+	font-weight: 700;
+	margin: 0;
+}
+
+.subtitle-card {
+	margin: .5em;
+	color: #2195f3cc;
+}

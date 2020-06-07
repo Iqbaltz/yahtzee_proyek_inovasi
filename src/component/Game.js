@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Dice from './Dice';
 import ScoreTable from './ScoreTable';
+import { Link } from 'react-router-dom';
 import './Game.css';
 
 const NUM_DICE = 5;
@@ -102,7 +103,10 @@ class Game extends Component {
 		return (
 			<div className="Game">
 				<header className="Game-header">
-					<h1 className="App-title">Yahtzee!</h1>
+					<Link className="btn-back" to="/">
+						Back to Menu
+					</Link>
+					<h1 className="Game-title">Yahtzee!</h1>
 
 					<section className="Game-dice-section">
 						<Dice

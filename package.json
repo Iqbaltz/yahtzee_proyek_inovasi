@@ -7,12 +7,12 @@
 		"node": "12.13.1"
 	},
 	"dependencies": {
-		"@fortawesome/fontawesome-free": "^5.12.1",
-		"gh-pages": "^2.0.1",
-		"react": "^16.4.1",
-		"react-dom": "^16.4.1",
-		"react-router-dom": "^5.1.2",
-		"react-scripts": "^3.0.1"
+		"@fortawesome/fontawesome-free": "^5.13.0",
+		"gh-pages": "^2.2.0",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"react-router-dom": "^5.2.0",
+		"react-scripts": "^3.4.1"
 	},
 	"scripts": {
 		"start": "react-scripts start",
@@ -23,12 +23,20 @@
 		"deploy": "gh-pages -d build -e s16-yahtzee"
 	},
 	"devDependencies": {
-		"enzyme": "^3.8.0",
-		"enzyme-adapter-react-16": "^1.7.1",
-		"enzyme-to-json": "^3.3.5"
+		"enzyme": "^3.11.0",
+		"enzyme-adapter-react-16": "^1.15.2",
+		"enzyme-to-json": "^3.5.0"
 	},
 	"browserslist": {
-		"production": [ ">0.2%", "not dead", "not op_mini all" ],
-		"development": [ "last 1 chrome version", "last 1 firefox version", "last 1 safari version" ]
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
 	}
 }

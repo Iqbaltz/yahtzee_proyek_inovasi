@@ -17,13 +17,13 @@ class Menu extends Component {
 						<span />
 						Play
 					</Link>
-					<Link to="/help">
+					<a href="https://www.wikihow.com/Play-Yahtzee" target="_blank" rel="noopener noreferrer">
 						<span />
 						<span />
 						<span />
 						<span />
 						Help
-					</Link>
+					</a>
 					<Link to="/about">
 						<span />
 						<span />

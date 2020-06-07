@@ -12,12 +12,9 @@
 }
 
 .Menu-header {
-	/* background: linear-gradient(-45deg, #673ab7, #9c27b0); */
 	background-color: #2196f3;
 	width: 100%;
-	background-size: 400% 400%;
 	color: #255784;
-	/* animation: Gradient 10s ease infinite; */
 }
 
 @keyframes Neon {
@@ -40,7 +37,6 @@
 	padding: 15px 30px;
 	margin: 1.5em;
 	text-decoration: none;
-	/* color: #9c27b0; */
 	color: #2196f3;
 	font-size: 2em;
 	letter-spacing: 4px;

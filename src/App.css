@@ -6,18 +6,21 @@
 	height: 100vh;
 }
 
-.App-title {
+.Game-title {
 	margin-top: 1rem;
 	color: #255784;
 	margin-bottom: 0;
 	font-weight: 100;
 	display: inline-block;
-	font-size: 5rem;
-	width: 50%;
+	font-size: 4rem;
+}
+
+p {
+	font-size: .9em;
 }
 
 @media (max-width: 1000px) {
-	.App-title {
+	.Game-title {
 		font-size: 4rem;
 		width: 100%;
 	}

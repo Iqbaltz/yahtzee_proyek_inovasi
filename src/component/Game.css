@@ -1,5 +1,5 @@
 .Game {
-	width: 34vw;
+	width: 36vw;
 	background-color: #031321;
 	box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
 	display: flex;
@@ -11,9 +11,24 @@
 	animation: Neon 10s ease-in-out infinite;
 }
 
+.btn-back {
+	padding: .4em .8em;
+	text-decoration: none;
+	color: #2196f3;
+	background-color: #002d52;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: .3s;
+}
+
+.btn-back:hover {
+	background-color: #00192e;
+}
+
 h2 {
 	font-weight: 100;
-	font-size: 2em;
+	font-size: 1.5em;
 	display: inline-block;
 	border-bottom: 2px solid #2196f3;
 	text-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
@@ -28,7 +43,7 @@ h2 {
 
 h3 {
 	font-weight: 100;
-	font-size: 1.8em;
+	font-size: 1.2em;
 	text-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
 	display: block;
 	margin: 5px;
@@ -47,7 +62,7 @@ h3 {
 }
 
 .Game-reroll {
-	font-size: 2em;
+	font-size: 1.5em;
 	color: #2196f3;
 	text-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
 	font-weight: 100;
@@ -81,6 +96,8 @@ h3 {
 .Game-header {
 	width: 100%;
 	background-color: #2196f3;
+	position: relative;
+
 	/* background-size: 400% 400%; */
 	/* -webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
