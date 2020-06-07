@@ -1,4 +1,7 @@
 # yahtzee_proyek_inovasi
+
+### [Preview](https://yahtzee-dark.herokuapp.com/)
+
 ini adalah proyek untuk matakuliah Proyek Inovasi
 
 requirement:
