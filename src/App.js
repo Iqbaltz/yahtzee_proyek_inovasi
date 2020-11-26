@@ -8,7 +8,7 @@ import About from './component/About';
 
 class App extends Component {
 	componentDidMount() {
-		console.log('di component didmount gan');
+		console.log('di component gan');
 		const elem = document.getElementById('startingLoader');
 		window.onload = () => {
 			if (elem) {
